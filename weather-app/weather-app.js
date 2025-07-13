@@ -15,10 +15,10 @@ let city = argv.city.toLowerCase();
 
 function getWeatherData() {
     let weatherData = {
-        'miami': { Temperature: 65, Humidity: 35, WindSpeed: 25, conditions: 'cloudy' },
-        'tokyo': { Temperature: 65, Humidity: 35, WindSpeed: 25, conditions: 'cloudy' },
-        'paris': { Temperature: 65, Humidity: 35, WindSpeed: 25, conditions: 'cloudy' },
-        'chicago': { Temperature: 65, Humidity: 35, WindSpeed: 25, conditions: 'cloudy' }
+        'london': { Temperature: 65, Humidity: 50, WindSpeed: 10, conditions: 'sunny' },
+        'seattle': { Temperature: 75, Humidity: 35, WindSpeed: 5, conditions: 'partly cloudy' },
+        'portland': { Temperature: 85, Humidity: 70, WindSpeed: 25, conditions: 'cloudy' },
+        'chicago': { Temperature: 60, Humidity: 40, WindSpeed: 20, conditions: 'rainy' }
     }
 };
 
